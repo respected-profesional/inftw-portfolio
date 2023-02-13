@@ -1,0 +1,119 @@
+html, body {
+    margin: 0;
+    background-color: black;
+}
+
+.nav-container{
+    display: flex;
+    padding: 20px 5% ;
+    background-color: black;
+    
+
+
+}
+
+.logo {
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+.logo > img {
+    height: 30px;
+}
+
+.space {
+    flex: 1;
+}
+
+.buttons {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+.nofill-button{
+    transition: 0.3s;
+}
+.nofill-button:hover {
+   
+    color: #3366FF;
+}
+
+.button {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #3366FF;
+
+    padding: 10px;
+    border-radius: 20px;
+    padding: 10px 20px;
+
+    transition: 0.3s;
+}
+
+.button:hover{
+    text-decoration: none;
+    color: #3366FF;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.container {
+    display: flex;
+    padding: 70px;
+}
+
+.title {
+    text-align: center;
+    
+    flex: 1;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 80px;
+    font-weight: 800;
+    
+}
+
+.arrow > img{
+
+    display: flex;
+    margin-left: 30%;
+    
+    width: 20%;
+
+}
+
+
+.ciarky > img {
+    margin: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 20%;
+    
+}
+
+
+
+
+.mac {
+    display: flex;
+    
+}
+
+.mac > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+
+}
